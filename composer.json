@@ -1,6 +1,6 @@
 {
     "name": "php-unit-example",
-    "description": "a simple php unit example",
+    "description": "a simple php unit test example",
     "require": {
         "phpunit/phpunit": "^8.5"
     },
