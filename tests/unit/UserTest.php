@@ -3,13 +3,19 @@
 class UserTest extends \PHPUnit\Framework\TestCase 
 {
 
+    public $user;
+
+    public function setUp(): void
+    {
+        $this->user = new \App\Models\User;
+    }
+
     /** @test */
     public function that_we_can_get_the_firstName()
     {
-        $user = new \App\Models\User;
-        $user->setFirstName("Ali");
+        $this->user->setFirstName("Ali");
 
-        $this->assertEquals($user->getFirstName(), "Ali");
+        $this->assertEquals($this->user->getFirstName(), "Ali");
     }
 
     /** @test */
