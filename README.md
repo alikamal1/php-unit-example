@@ -13,4 +13,5 @@ $this->assertEmpty() // check if empty
 $this->assertCount() // check the count
 $this->assertInstanceOf() // check if object is an intance of specific class
 $this->assertIsString() // check internal type of an instance
+$this->expectException(); // check if exception happen
 ```
