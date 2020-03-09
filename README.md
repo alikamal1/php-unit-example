@@ -17,4 +17,4 @@ $this->expectException(); // check if exception happen
 $this->assertIsArray() // check internal type is an array
 ```
 
-<p align="center"><img height="700" src="https://raw.githubusercontent.com/alikamal1/php-unit-example/master/screenshot.PNG"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/alikamal1/php-unit-example/master/screenshot.PNG"></p>
